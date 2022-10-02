@@ -4,14 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon jade1.js"
+    "start": "nodemon mongodb.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "jade": "^1.11.0"
+    "express-session": "^1.17.3",
+    "jade": "^1.11.0",
+    "mongodb": "^4.10.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "serve-static": "^1.15.0"
   }
 }
